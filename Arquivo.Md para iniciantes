@@ -1,0 +1,64 @@
+# Contexto do Dataset: Dados Sintéticos de Custos Médicos
+
+## Visão Geral
+
+Este dataset foi criado para ajudar a entender como diferentes fatores demográficos, pessoais e de saúde podem influenciar os custos médicos. Os dados são sintéticos, o que significa que foram gerados artificialmente para representar padrões típicos observados em estudos reais, mas sem comprometer informações sensíveis de pacientes reais.
+
+Ele é frequentemente usado para projetos de aprendizado de máquina, análise de dados e introdução à estatística no campo da saúde.
+
+---
+
+## Estrutura do Dataset
+
+O dataset contém as seguintes colunas:
+
+- **Idade (`age`)**: A idade do paciente (em anos).  
+- **Sexo (`sex`)**: O gênero do paciente, registrado como `male` (masculino) ou `female` (feminino).  
+- **Índice de Massa Corporal (`bmi`)**: Um indicador da composição corporal, calculado como peso em relação à altura (kg/m²). Valores elevados podem indicar obesidade.  
+- **Número de Filhos (`children`)**: Número de dependentes registrados pelo paciente.  
+- **Fumante (`smoker`)**: Se o paciente é fumante (`yes`) ou não (`no`).  
+- **Região (`region`)**: A localização geográfica do paciente, categorizada em quatro regiões (`northwest`, `northeast`, `southeast`, `southwest`).  
+- **Custos Médicos (`charges`)**: O custo total estimado de serviços médicos para o paciente (em dólares).
+
+---
+
+## Objetivo do Dataset
+
+O objetivo principal ao usar este dataset é explorar como os diferentes fatores (idade, IMC, hábito de fumar, etc.) afetam os custos médicos. Isso pode incluir:
+
+1. **Identificar padrões**: Por exemplo, pessoas com maior IMC ou que são fumantes tendem a ter custos médicos mais altos?  
+2. **Criar modelos preditivos**: Usar aprendizado de máquina para prever os custos médicos com base nos fatores fornecidos.  
+3. **Análise exploratória de dados (EDA)**: Visualizar dados para insights, como gráficos de dispersão, histogramas e correlações.
+
+---
+
+## Exemplos de Uso
+
+### 1. Perguntas Simples
+- Quem tem maior custo médio: fumantes ou não fumantes?  
+- Como a idade influencia os custos médicos?  
+
+### 2. Visualizações
+- Gráficos para mostrar a relação entre o índice de massa corporal e os custos médicos.  
+- Comparação dos custos médicos médios por região.  
+
+### 3. Machine Learning
+- Modelar os custos médicos como uma variável-alvo (`charges`) usando regressão.  
+
+---
+
+## Notas para Iniciantes
+
+- **Dados Sintéticos:** Os valores não representam casos reais, mas foram gerados para simular cenários próximos do mundo real.  
+- **Privacidade:** Por ser sintético, você pode usar o dataset para aprendizado sem preocupações éticas sobre privacidade de dados.  
+- **Aprendizado Gradual:** Comece com análise exploratória simples antes de construir modelos complexos.
+
+---
+
+## Fontes de Inspiração
+
+Datasets semelhantes podem ser encontrados em plataformas como:
+- [Kaggle](https://www.kaggle.com/)
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
+
+Use este dataset para praticar suas habilidades e compreender melhor os custos no setor de saúde. 😊
